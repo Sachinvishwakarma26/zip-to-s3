@@ -1,0 +1,28 @@
+{
+  "name": "zip-to-s3",
+  "version": "0.1.0",
+  "description": "A library to upload the contents of a zip file to an S3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/studiothick/zip-to-s3.git"
+  },
+  "keywords": [
+    "zip",
+    "s3"
+  ],
+  "author": "Tom McLean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studiothick/zip-to-s3/issues"
+  },
+  "homepage": "https://github.com/studiothick/zip-to-s3#readme",
+  "dependencies": {
+    "s3": "^4.4.0",
+    "tmp": "0.0.28",
+    "unzip2": "^0.2.5"
+  }
+}
